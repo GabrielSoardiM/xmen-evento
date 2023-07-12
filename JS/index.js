@@ -50,8 +50,7 @@ personagensDaLista.forEach(personagem => {
 
       const idPersonagem = personagem.attributes.id.value;
       
-      //imagemPersonagemGrande.src = `../imagens/imagens/card-${idPersonagem}.png`
-      imagemPersonagemGrande.src = `..\imagens\imagens\card-${idPersonagem}.png`
+      imagemPersonagemGrande.src = `../imagens/card-${idPersonagem}.png`
 
       //passo 3 - alterar o nome do personagem grande
 

@@ -1,6 +1,6 @@
 @media (max-width: 1124px){
     body::before{
-        height: 110%;
+        height: 120%;
     }
     
     .cabecalho .logo{
@@ -43,6 +43,6 @@
 
 @media(max-width: 370px){
     body::before{
-        height: 150%;
+        height: 160%;
     }
 }
