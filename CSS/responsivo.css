@@ -1,4 +1,8 @@
 @media (max-width: 1124px){
+    body::before{
+        height: 110%;
+    }
+    
     .cabecalho .logo{
         max-width: 190px;
     }
@@ -26,13 +30,19 @@
     }
 
     .selecao-de-personagem .personagem-grande{
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
     }
 
     .selecao-de-personagem .personagem-selecionado .descricao-personagem{
         width: 80%;
         font-size: 16px;
         margin: 20px auto;
+    }
+}
+
+@media(max-width: 370px){
+    body::before{
+        height: 150%;
     }
 }

@@ -8,7 +8,7 @@ body::before{
     content: "";
     background-image: url("../imagens/imagens/bg-desktop.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -21,6 +21,7 @@ body::before{
 .cabecalho{
     display: flex;
     justify-content: center;
+    height: 20vh;
 }
 
 .selecao-de-personagem{
@@ -68,6 +69,8 @@ body::before{
 .personagem-selecionado {
     text-align: center;
     max-height: 530px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .personagem-selecionado .personagem-grande{
@@ -86,5 +89,5 @@ body::before{
     line-height: 20px;
     text-align: center;
     margin-top: 20px;
-
+    width: 100%;
 }
